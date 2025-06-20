@@ -15,9 +15,11 @@ const HeroSection = () => {
           <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
             I'm a Freelance UI/UX Designer and Full-Stack Developer based in Lahore, Pakistan. I strive to build immersive, beautiful web applications through clean code, thoughtful design, and seamless user experiences — using React, Next.js, Node.js, MongoDB, and MySQL.
           </p>
-          <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-6 py-3 rounded-[5px]">
-            Say Hello!
-          </button>
+          <a href="#contact">
+            <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-10 py-4 rounded-[5px]">
+              Say Hello!
+            </button>
+          </a>
 
           <div className="flex flex-row gap-4 w-full ">
             <div className="bg-boxesBackgroundColor flex-1 flex justify-center items-center flex-col rounded-[5px] h-[80px]">

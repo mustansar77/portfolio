@@ -30,12 +30,14 @@ const Service = () => {
             What I do?
           </h1>
           <p className="text-[16px] sm:text-[18px] font-[400] text-subHeadingColor">
-            I'm a Freelance UI/UX Designer and Developer based in London, England. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+            I'm a Freelance UI/UX Designer and Developer based in Lahore, Pakistan. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
           </p>
           <div>
-            <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-6 py-3 rounded-[5px]">
-              Say Hello!
-            </button>
+            <a href="#contact">
+              <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-6 py-3 rounded-[5px]">
+                Say Hello!
+              </button>
+            </a>
           </div>
         </div>
 

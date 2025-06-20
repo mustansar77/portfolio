@@ -3,11 +3,13 @@ import Link from 'next/link';
 
 const Footer = () => {
   const footerItem = [
-    { path: "/", name: "Home" },
-    { path: "/about", name: "About" },
-    { path: "/process", name: "Process" },
-    { path: "/services", name: "Services" },
-    { path: "/contact", name: "Contact" },
+    { path: "#home", name: "Home" },
+    { path: "#about", name: "About" },
+    { path: "#process", name: "Process" },
+    { path: "#projects", name: "Projects" },
+    { path: "#services", name: "Services" },
+    { path: "#testimonials", name: "Testimonials" },
+    { path: "#contact", name: "Contact" },
   ];
 
   return (
@@ -27,13 +29,13 @@ const Footer = () => {
         {/* Nav Links */}
         <div className="flex flex-wrap justify-center gap-4 md:gap-8">
           {footerItem.map((item, index) => (
-            <Link
+            <a
               href={item.path}
               key={index}
               className="text-buttonTextColor font-[300] text-[14px] md:text-[16px] hover:text-buttonColors transition"
             >
               {item.name}
-            </Link>
+            </a>
           ))}
         </div>
 

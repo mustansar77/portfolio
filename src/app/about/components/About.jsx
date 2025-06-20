@@ -29,10 +29,14 @@ const About = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-10 py-3 rounded-[5px]">
-              Portfolio
-            </button>
-            <button className="bg-transparent border border-buttonColors text-buttonColors font-[600] text-[16px] px-10 py-3 rounded-[5px]">
+            <a href="#projects">
+              <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-10 py-4 rounded-[5px]">
+                Projects
+              </button>
+            </a>
+
+
+            <button className="bg-transparent border border-buttonColors text-buttonColors font-[600] text-[16px] px-10 py-4 rounded-[5px]">
               Download CV
             </button>
           </div>
