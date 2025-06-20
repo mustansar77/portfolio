@@ -6,7 +6,7 @@ import { FaUpwork } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="max-w-[1170px] mx-auto my-[60px] md:my-[100px] px-4 md:px-6 rounded-[20px] shadow-2xl">
+    <div className="max-w-[1170px] mx-auto my-[60px] md:my-[100px] px-4 md:px-6 ">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
 
         {/* Image Left (top on mobile) */}
@@ -22,10 +22,10 @@ const About = () => {
         {/* Right side - Text Content */}
         <div className="flex flex-col justify-center items-center md:items-start gap-6 text-center md:text-left">
           <h1 className="text-[28px] sm:text-[36px] md:text-[40px] font-[600] text-mainHeadingColor leading-tight md:leading-[50px]">
-            I am Professional User Experience Designer
+            I’m a Professional User Experience Designer & Full-Stack Web Developer
           </h1>
           <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
-            I design and develop services for customers specializing in creating stylish, modern websites, web services, and online stores. My passion is to design digital user experiences.
+            I design and develop modern, high-performing digital solutions that put the user first. From sleek front-end interfaces built with React and Next.js to powerful backend systems using Node.js, Express, MongoDB, or MySQL — I help businesses bring their ideas to life. Whether you're launching a website, building a web app, or creating an online store, my focus is always on clean design, smooth functionality, and an exceptional user experience.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

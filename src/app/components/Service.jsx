@@ -1,6 +1,26 @@
 import React from 'react'
 
 const Service = () => {
+  const serviceItem = [{
+    title: " Crafting Clean & Intuitive Interfaces",
+    description: "   I design user-friendly interfaces with a focus on usability, accessibility, and visual harmony. Every layout is carefully structured to guide users effortlessly and create meaningful digital experiences."
+  },
+
+
+  {
+    title: " Modern Web Builds",
+    description: "   I build high-performance websites using modern technologies like Next.js, React, and Node.js — ensuring responsive design, fast load times, and smooth user interactions from front to back."
+  },
+
+
+
+  {
+    title: "Fast, Optimized & SEO-Friendly Websites",
+    description: " Speed and performance are key to user retention. I optimize every page for fast loading, mobile responsiveness, and search engine visibility — delivering websites that perform as great as they look."
+  },
+
+
+  ]
   return (
     <>
       <div className="max-w-[1170px] mx-auto px-4 my-[80px] grid grid-cols-1 md:grid-cols-2 gap-[30px] items-center">
@@ -21,16 +41,16 @@ const Service = () => {
 
         {/* Right Section */}
         <div className="flex flex-col items-center justify-center gap-[20px]">
-          {[1, 2, 3].map((_, idx) => (
+          {serviceItem.map((item, idx) => (
             <div
               key={idx}
               className="shadow-lg rounded-[8px] p-[20px] w-full hover:border-l-4 hover:border-l-buttonColors cursor-pointer flex flex-col gap-[10px] bg-white"
             >
               <h1 className="text-[20px] sm:text-[24px] font-[600] text-mainHeadingColor">
-                User Experience (UX)
+                {item.title}
               </h1>
               <p className="text-[14px] sm:text-[16px] font-[400] text-subHeadingColor">
-                I'm a Freelance UI/UX Designer and Developer based in London, England. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+                {item.description}
               </p>
             </div>
           ))}

@@ -15,18 +15,18 @@ const Process = () => {
           <h1 className="text-[28px] sm:text-[34px] md:text-[40px] font-[600] text-mainHeadingColor leading-tight md:leading-[50px]">
             Work Process
           </h1>
-          <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
-            I design and develop services for customers specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.
+          <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px] text-center md:text-left">
+            I follow a user-centered and collaborative approach to design and development. Whether it’s a sleek website, a dynamic web app, or an eCommerce store, I focus on delivering stylish, modern, and highly functional digital products. From idea to execution, every step is guided by clean code, responsive design, and a deep understanding of the user's journey.
           </p>
         </div>
 
         {/* Right Side: Steps */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-[10px]">
           {[
-            { title: "1. Research", icon: clipboard },
-            { title: "2. Analyze", icon: trend },
-            { title: "3. Design", icon: pencil },
-            { title: "4. Launch", icon: device },
+            { title: "1. Research", icon: clipboard, description: "I start by understanding your business goals, target audience, and user needs. This foundation ensures every design and development decision is purposeful and aligned with your objectives." },
+            { title: "2. Analyze", icon: trend, description: "Using data, competitor insights, and user behavior, I identify opportunities and define a strategic direction for your website or web application." },
+            { title: "3. Design", icon: pencil, description: "With a user-first approach, I create clean, responsive, and modern UI/UX designs. Every layout is crafted to ensure usability, accessibility, and visual appeal across devices." },
+            { title: "4. Launch", icon: device, description: "After thorough development and testing, I deploy the final product — optimized for performance, SEO, and scalability. Post-launch support ensures everything runs smoothly." },
           ].map((step, index) => (
             <div key={index} className="flex flex-col gap-4 p-4 rounded-lg bg-white shadow-sm">
               <div className={`w-[60px] h-[60px] rounded-[5px] p-4 flex justify-center items-center ${index === 0 ? 'bg-buttonColors' : 'bg-boxesBackgroundColor'}`}>
@@ -36,7 +36,7 @@ const Process = () => {
                 {step.title}
               </h2>
               <p className="text-[14px] sm:text-[16px] font-[400] text-subHeadingColor">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.
+                {step.description}
               </p>
             </div>
           ))}

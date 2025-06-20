@@ -3,34 +3,34 @@ import React, { useEffect, useState } from 'react';
 
 const testimonialsData = [
   {
-    name: 'Esther Howard',
-    position: 'Managing Director, ABC Company',
+    name: 'Kabir Kasam',
+    position: 'Founder, RecoveryCircle',
     message:
-      'Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu.',
+      'Working with you was a fantastic experience. You brought clarity and professionalism to a complex software idea. The UI design for each user role feels clean and intuitive. I’ve received great feedback from users since launch.',
   },
   {
-    name: 'Floyd Miles',
-    position: 'CTO, Tech Solutions',
+    name: 'Syed Hassan Naqvi',
+    position: 'Managing Director, Hurtech',
     message:
-      'Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien. Morbi ornare elit at libero suscipit porta.',
+      'From the first draft to the final website, you truly understood our brand vision. The site design is modern, professional, and exactly what we needed to communicate our services. Outstanding work!',
   },
   {
-    name: 'Savannah Nguyen',
-    position: 'Lead Designer, Pixel Perfect',
+    name: 'Amina Riaz',
+    position: 'Owner, LuxeScents E-Commerce',
     message:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'The visual design for our perfume store is simply beautiful. Our customers love the product layout and flow. Your attention to branding and responsive detail made a huge difference.',
   },
   {
-    name: 'Cameron Williamson',
-    position: 'Project Manager, DevCorp',
+    name: 'Tariq Mehmood',
+    position: 'Director, SocialUp SMM Panel',
     message:
-      'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.',
+      'The dashboard and service pages are incredibly well-designed. Everything feels easy to navigate, and users spend more time on the platform. The design added serious value to our business.',
   },
   {
-    name: 'Courtney Henry',
-    position: 'CEO, Visionary Ltd.',
+    name: 'Sarah Khan',
+    position: 'Creative Lead, PixelTree Studio',
     message:
-      'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
+      'Your sense of layout, color, and typography is top-tier. Every section feels intentional and user-friendly. Would highly recommend for anyone looking to elevate their brand’s online presence.',
   },
 ];
 
@@ -52,7 +52,8 @@ const Testimonials = () => {
           Testimonials
         </h1>
         <p className='text-[16px] font-[400] text-subHeadingColor max-w-[600px] mx-auto'>
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+          Hear from clients who’ve experienced the impact of my UI/UX design, modern web development, and high-performance websites. Each project reflects a commitment to clean design, smooth functionality, and user-focused results.
+
         </p>
       </div>
 
@@ -81,7 +82,7 @@ const Testimonials = () => {
           ></div>
         ))}
       </div>
-    </div>
+    </div >
   );
 };
 
