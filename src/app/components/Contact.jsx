@@ -10,14 +10,14 @@ const Contact = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Side */}
         <div className="flex flex-col justify-center items-center md:items-start gap-6 text-center md:text-left ">
-          <h1 className="text-[32px] sm:text-[34px] md:text-[38px] font-[600] text-mainHeadingColor leading-tight md:leading-[60px]">
+          <h1 data-aos="fade-down" className="text-[32px] sm:text-[34px] md:text-[38px] font-[600] text-mainHeadingColor leading-tight md:leading-[60px]">
             Let’s discuss your Project
           </h1>
-          <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
+          <p data-aos="fade-down" className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
             Have an idea in mind or need a stunning website design? I’d love to hear about your project goals and how I can bring your vision to life through clean, user-focused design.
           </p>
 
-          <div className='flex flex-col gap-[30px] justify-center w-full py-[30px]'>
+          <div data-aos="fade-up" className='flex flex-col gap-[30px] justify-center w-full py-[30px]'>
             {/* Info Items */}
             {[
               { label: "Address", value: "Johar Town, Lahore", icon: <CiLocationOn className='h-[30px] w-[30px] fill-white' /> },
@@ -40,7 +40,7 @@ const Contact = () => {
         {/* Right Side - Form */}
         <div className="w-full">
 
-          <form className="bg-white rounded-[20px] p-6  space-y-4">
+          <form data-aos="fade-left" className="bg-white rounded-[20px] p-6  space-y-4">
             <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
               Tell me a bit about your project — I’d love to understand your goals and how we can bring your vision to life through thoughtful, modern design.
             </p>

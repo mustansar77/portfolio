@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Side (Text Content) */}
         <div className="flex flex-col justify-center items-center md:items-start gap-6 text-center md:text-left">
-          <h1 className="text-[32px] sm:text-[44px] md:text-[62px] font-[600] text-mainHeadingColor leading-tight md:leading-[80px]">
+          <h1 data-aos="fade-up" className="text-[32px] sm:text-[44px] md:text-[62px] font-[600] text-mainHeadingColor leading-tight md:leading-[80px]">
             Hello, I’m <br className="md:hidden" />
             Mustansar Hussain
           </h1>

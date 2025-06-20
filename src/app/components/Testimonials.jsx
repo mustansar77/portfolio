@@ -47,7 +47,7 @@ const Testimonials = () => {
   return (
     <div className='max-w-[1170px] mx-auto my-[100px] p-[20px] rounded-[20px]'>
       {/* Section Header */}
-      <div className='text-center'>
+      <div data-aos="fade-down" className='text-center'>
         <h1 className='text-[32px] sm:text-[40px] font-[600] text-mainHeadingColor leading-[50px]'>
           Testimonials
         </h1>
@@ -58,7 +58,7 @@ const Testimonials = () => {
       </div>
 
       {/* Testimonial Content */}
-      <div className='transition-all duration-700 ease-in-out text-center mt-[30px]'>
+      <div data-aos="fade-up" className='transition-all duration-700 ease-in-out text-center mt-[30px]'>
         <h1 className='text-[14px] sm:text-[18px] font-[400] text-mainHeadingColor max-w-[800px] mx-auto'>
           "{testimonialsData[currentIndex].message}"
         </h1>

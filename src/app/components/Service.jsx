@@ -25,7 +25,7 @@ const Service = () => {
     <>
       <div className="max-w-[1170px] mx-auto px-4 my-[80px] grid grid-cols-1 md:grid-cols-2 gap-[30px] items-center">
         {/* Left Section */}
-        <div className="flex flex-col justify-center gap-[20px] text-center md:text-left">
+        <div data-aos="fade-right" className="flex flex-col justify-center gap-[20px] text-center md:text-left">
           <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-[600] text-mainHeadingColor leading-tight">
             What I do?
           </h1>
@@ -42,7 +42,7 @@ const Service = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-col items-center justify-center gap-[20px]">
+        <div data-aos="fade-left" className="flex flex-col items-center justify-center gap-[20px]">
           {serviceItem.map((item, idx) => (
             <div
               key={idx}
