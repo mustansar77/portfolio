@@ -39,22 +39,22 @@ const Projects = () => {
       link: "https://hurtech.io",
       Image: hurtech
     },
-    {
-      category: "Website Development",
-      title: "Perfume E-commerce Store",
-      projectDescription:
-        "A fully functional e-commerce platform designed for selling perfumes, featuring a clean and elegant frontend coupled with a robust backend. It includes modules for user management, order tracking, product listings, transaction records, and customer history to provide a seamless shopping experience.",
-      link: "https://example.com/perfume-store",
-      Image: projectImage
-    },
-    {
-      category: "Website Development",
-      title: "SMM Panel",
-      projectDescription:
-        "An advanced Social Media Marketing panel where users can purchase services such as followers, likes, watch time, and views across platforms like Facebook, YouTube, Instagram, Twitter, and TikTok. The platform includes a manual payment system, separate dashboards for admin and users, and full control over service management, user orders, and payment tracking.",
-      link: "https://pakistan-smm.vercel.app/",
-      Image: smmpanel
-    },
+    // {
+    //   category: "Website Development",
+    //   title: "Perfume E-commerce Store",
+    //   projectDescription:
+    //     "A fully functional e-commerce platform designed for selling perfumes, featuring a clean and elegant frontend coupled with a robust backend. It includes modules for user management, order tracking, product listings, transaction records, and customer history to provide a seamless shopping experience.",
+    //   link: "https://example.com/perfume-store",
+    //   Image: projectImage
+    // },
+    // {
+    //   category: "Website Development",
+    //   title: "SMM Panel",
+    //   projectDescription:
+    //     "An advanced Social Media Marketing panel where users can purchase services such as followers, likes, watch time, and views across platforms like Facebook, YouTube, Instagram, Twitter, and TikTok. The platform includes a manual payment system, separate dashboards for admin and users, and full control over service management, user orders, and payment tracking.",
+    //   link: "https://pakistan-smm.vercel.app/",
+    //   Image: smmpanel
+    // },
     {
       category: "Website Development",
       title: "Portfolio Website",
@@ -73,20 +73,20 @@ const Projects = () => {
     },
     {
       category: "Website Development",
-      title: "School App",
+      title: "School Management System",
       projectDescription:
         "A role-based school management system with three roles: Admin, Teacher, and Student. Teachers can manage class schedules, student attendance, and communicate with parents. Students can access their library books, results, fee vouchers, and communicate with teachers. Admins manage both students and teachers, including salaries, fee vouchers, and data tracking.",
       link: "https://example.com/school-app",
       Image: school
     },
-    {
-      category: "Website Development",
-      title: "Hospital Management System",
-      projectDescription:
-        "A comprehensive hospital management system designed to handle doctor, nurse, receptionist, and driver profiles. It manages hospital assets, accessories, ambulance tracking, holiday schedules, and patient records. The system enhances operational efficiency across all departments.",
-      link: "https://example.com/hospital-system",
-      Image: projectImage
-    },
+    // {
+    //   category: "Website Development",
+    //   title: "Hospital Management System",
+    //   projectDescription:
+    //     "A comprehensive hospital management system designed to handle doctor, nurse, receptionist, and driver profiles. It manages hospital assets, accessories, ambulance tracking, holiday schedules, and patient records. The system enhances operational efficiency across all departments.",
+    //   link: "https://example.com/hospital-system",
+    //   Image: projectImage
+    // },
     {
       category: "Website Performance",
       title: "Globit",
