@@ -22,7 +22,7 @@ const About = () => {
           <Image
             src={myImage}
             alt="About Image"
-            className="w-full max-w-[400px] md:max-w-[500px] h-auto object-contain"
+            className="w-full hidden md:block  max-w-[400px] md:max-w-[500px] h-auto object-contain"
             priority
           />
         </div>
