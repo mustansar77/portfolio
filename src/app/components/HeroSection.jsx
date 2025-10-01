@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import myImage from "../../../public/unsplash_wKOKidNT14w.svg"
+import myImage from "../../../public/me.png"
 
 const HeroSection = () => {
   return (
@@ -13,30 +13,30 @@ const HeroSection = () => {
             Mustansar Hussain
           </h1>
           <p className="text-[16px] font-[400] text-subHeadingColor max-w-[600px]">
-            I'm a Freelance UI/UX Designer and Full-Stack Developer based in Lahore, Pakistan. I strive to build immersive, beautiful web applications through clean code, thoughtful design, and seamless user experiences — using React, Next.js, Node.js, MongoDB, and MySQL.
+            Hi, I’m a MERN Stack Developer from Bahawalpur, Pakistan. I love creating fast, modern, and interactive web applications using MongoDB, Express.js, React,Next, and Node.js. From backend APIs to frontend interfaces, I bring ideas to life with clean code, thoughtful design, and a focus on user experience.
           </p>
           <a href="#contact">
             <button className="bg-buttonColors text-buttonTextColor font-[600] text-[16px] px-10 py-4 rounded-[5px]">
               Say Hello!
             </button>
           </a>
-
-          <div className="flex flex-row gap-4 w-full ">
-            <div className="bg-boxesBackgroundColor flex-1 flex justify-center items-center flex-col rounded-[5px] h-[80px]">
-              <h1 className="text-textColor text-[24px] font-[600]">2 Y.</h1>
-              <p className="text-subHeadingColor text-[16px] font-[400]">Experience</p>
+          <div className="w-full flex flex-wrap justify-center gap-4">
+            <div className="bg-boxesBackgroundColor flex-1 min-w-[100px] sm:min-w-[120px] md:min-w-[150px] flex flex-col justify-center items-center rounded-lg h-[100px] shadow-md hover:shadow-lg transition">
+              <h1 className="text-textColor text-xl sm:text-2xl md:text-3xl font-bold">2 Y.</h1>
+              <p className="text-subHeadingColor text-sm sm:text-base md:text-lg font-medium">Experience</p>
             </div>
 
-            <div className="bg-boxesBackgroundColor flex-1 flex justify-center items-center flex-col rounded-[5px] h-[80px]">
-              <h1 className="text-textColor text-[24px] font-[600]">8</h1>
-              <p className="text-subHeadingColor text-[16px] font-[400]">Project Completed</p>
+            <div className="bg-boxesBackgroundColor flex-1 min-w-[100px] sm:min-w-[120px] md:min-w-[150px] flex flex-col justify-center items-center rounded-lg h-[100px] shadow-md hover:shadow-lg transition">
+              <h1 className="text-textColor text-xl sm:text-2xl md:text-3xl font-bold">8</h1>
+              <p className="text-subHeadingColor text-sm sm:text-base md:text-lg font-medium">Projects Completed</p>
             </div>
 
-            <div className="bg-boxesBackgroundColor flex-1 flex justify-center items-center flex-col rounded-[5px] h-[80px]">
-              <h1 className="text-textColor text-[24px] font-[600]">5</h1>
-              <p className="text-subHeadingColor text-[16px] font-[400]">Happy Client</p>
+            <div className="bg-boxesBackgroundColor flex-1 min-w-[100px] sm:min-w-[120px] md:min-w-[150px] flex flex-col justify-center items-center rounded-lg h-[100px] shadow-md hover:shadow-lg transition">
+              <h1 className="text-textColor text-xl sm:text-2xl md:text-3xl font-bold">5</h1>
+              <p className="text-subHeadingColor text-sm sm:text-base md:text-lg font-medium">Happy Clients</p>
             </div>
           </div>
+
         </div>
 
         {/* Right Side (Image) */}
@@ -44,7 +44,7 @@ const HeroSection = () => {
           <Image
             src={myImage}
             alt="Hero Image"
-            className="w-full max-w-[400px] md:max-w-full h-auto object-contain"
+            className="w-full max-w-[400px] md:max-w-[500px] h-auto object-contain"
             priority
           />
         </div>

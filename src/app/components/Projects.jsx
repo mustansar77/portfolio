@@ -63,22 +63,22 @@ const Projects = () => {
       link: "https://portfolio-ecru-nine-icr0lix060.vercel.app/",
       Image: portfolio
     },
-    {
-      category: "Website Development",
-      title: "Foodify",
-      projectDescription:
-        "Foodify is a restaurant management platform where restaurants can register to manage their staff, menus, tables, and floor layouts. Customers can book tables or place orders online. Designed to support a nearly waiterless dining experience, the platform streamlines restaurant operations and enhances customer convenience.",
-      link: "https://example.com/foodify",
-      Image: projectImage
-    },
-    {
-      category: "Website Development",
-      title: "School Management System",
-      projectDescription:
-        "A role-based school management system with three roles: Admin, Teacher, and Student. Teachers can manage class schedules, student attendance, and communicate with parents. Students can access their library books, results, fee vouchers, and communicate with teachers. Admins manage both students and teachers, including salaries, fee vouchers, and data tracking.",
-      link: "https://example.com/school-app",
-      Image: school
-    },
+    // {
+    //   category: "Website Development",
+    //   title: "Foodify",
+    //   projectDescription:
+    //     "Foodify is a restaurant management platform where restaurants can register to manage their staff, menus, tables, and floor layouts. Customers can book tables or place orders online. Designed to support a nearly waiterless dining experience, the platform streamlines restaurant operations and enhances customer convenience.",
+    //   link: "https://example.com/foodify",
+    //   Image: projectImage
+    // },
+    // {
+    //   category: "Website Development",
+    //   title: "School Management System",
+    //   projectDescription:
+    //     "A role-based School Management System built with a modern frontend architecture. The platform includes three roles — Admin, Teacher, and Student. Teachers can manage class schedules, track student attendance, and communicate with parents. Students have access to their library books, results, fee vouchers, and teacher communication. Admins can oversee students and teachers, including salaries, fee management, and data tracking. (This project currently includes the frontend implementation, designed for scalability and future backend integration.)",
+    //   link: "https://example.com/school-app",
+    //   Image: school
+    // },
     // {
     //   category: "Website Development",
     //   title: "Hospital Management System",
@@ -110,7 +110,7 @@ const Projects = () => {
             My Projects
           </h1>
           <p className='text-[16px] font-[400] text-subHeadingColor max-w-[600px] mx-auto'>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+            Here are some of the projects I’ve worked on — from responsive websites to full-stack web applications. Each project highlights my expertise in the MERN stack, clean design, and creating seamless user experiences.
           </p>
         </div>
 

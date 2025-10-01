@@ -30,7 +30,7 @@ const Service = () => {
             What I do?
           </h1>
           <p className="text-[16px] sm:text-[18px] font-[400] text-subHeadingColor">
-            I'm a Freelance UI/UX Designer and Developer based in Lahore, Pakistan. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+            As a MERN Stack Developer, I design and develop full-stack web applications that combine sleek front-end interfaces with powerful back-end systems. From business websites to custom web apps, I help bring ideas to life with responsive design, seamless functionality, and scalable technology.
           </p>
           <div>
             <a href="#contact">

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import WhatsAppButton from "./components/Whatsapp";
 
 // export const metadata = {
 //   title: "Mustansar Hussain Tariq",
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
       <body >
         <Navbar />
         {children}
-
+        {/* <WhatsAppButton /> */}
         <Footer />
       </body>
     </html>
